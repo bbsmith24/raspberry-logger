@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1575830938 source:/home/pi/C Programming/helloPi/helloPi/main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<errno.h>
+	<time.h>
+	<sys/time.h>
+	<unistd.h>
+	"../../../LSM9DS1_RaspberryPi_library/include/LSM9DS1_Types.h"
+	"../../../LSM9DS1_RaspberryPi_library/include/LSM9DS1.h"
+
+1575809977 /home/pi/LSM9DS1_RaspberryPi_library/include/LSM9DS1_Types.h
+	<stdint.h>
+	"LSM9DS1_Registers.h"
+
+1575809977 /home/pi/LSM9DS1_RaspberryPi_library/include/LSM9DS1_Registers.h
+	<stdint.h>
+
+1575809977 /home/pi/LSM9DS1_RaspberryPi_library/include/LSM9DS1.h
+	"Arduino.h"
+	"WProgram.h"
+	"pins_arduino.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdint.h>
+	"LSM9DS1_Registers.h"
+	"LSM9DS1_Types.h"
+
+1575809977 source:/home/pi/LSM9DS1_RaspberryPi_library/src/LSM9DS1.cpp
+	<time.h>
+	<unistd.h>
+	<wiringPi.h>
+	<wiringPiI2C.h>
+	"LSM9DS1.h"
+	"LSM9DS1_Registers.h"
+	"LSM9DS1_Types.h"
+
+1575809977 source:/home/pi/LSM9DS1_RaspberryPi_library/src/LSM9DS1_c_wrapper.cpp
+	"LSM9DS1_c_wrapper.h"
+	"LSM9DS1.h"
+
